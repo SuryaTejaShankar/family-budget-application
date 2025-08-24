@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+Family Budget Application:
+A modern React-based family budgeting application that helps users manage expenses, track income, and visualize spending patterns with interactive charts. Built with Create React App, styled with Styled Components, and powered by Supabase for backend services.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
 
-## Available Scripts
+✅ User Authentication — Secure login and signup using Supabase
+✅ Expense & Income Tracking — Add, update, and manage budget entries
+✅ Data Visualization — Interactive charts powered by Chart.js & Recharts
+✅ Smooth Animations — Elegant UI interactions with Framer Motion
+✅ Routing — Seamless navigation using React Router DOM
+✅ Responsive UI — Mobile-first design for all screen sizes
+✅ Testing Ready — Integrated with React Testing Library & Jest
 
-In the project directory, you can run:
+🛠️ Tech Stack
 
-### `npm start`
+Frontend: React (v19+), Styled Components, Framer Motion
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Routing: React Router DOM
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Charts: Recharts
 
-### `npm test`
+Backend: Supabase (database & authentication)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Testing: Jest, React Testing Library
 
-### `npm run build`
+Tooling: React Scripts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository and install dependencies:
+```
+git clone <repository-url>
+cd family-budget-app
+npm install
+```
 
-### `npm run eject`
+🚀 Available Scripts
+▶️ npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Runs the app in development mode at http://localhost:3000
+.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🧪 npm test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Runs the test runner in watch mode.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📦 npm run build
 
-## Learn More
+Builds the app for production inside the build/ folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+⚙️ npm run eject
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Exposes Webpack, Babel, and ESLint configs for customization.
 
-### Code Splitting
+📂 Project Structure
+family-budget-app/
+  ├── public/              # Static assets
+  ├── src/                 # React source code
+  │   ├── components/      # Reusable UI components
+  │   ├── pages/           # Application pages (Dashboard, Login, etc.)
+  │   ├── services/        # Supabase API integration
+  │   ├── App.js           # Root app component
+  │   └── index.js         # React entry point
+  ├── package.json         # Project metadata & dependencies
+  ├── README.md            # Documentation
+  └── .gitignore
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🌐 Deployment
 
-### Analyzing the Bundle Size
+The app can be deployed easily using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Vercel
 
-### Making a Progressive Web App
+Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+GitHub Pages
 
-### Advanced Configuration
+Firebase Hosting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🔮 Future Enhancements
 
-### Deployment
+📊 Export budget data as CSV/PDF
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🔔 Add reminders for bill payments
 
-### `npm run build` fails to minify
+👥 Multi-user family budgeting with shared access
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📱 Native mobile app with React Native
